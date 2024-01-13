@@ -1,0 +1,14 @@
+.banner {
+    height: 100vh;
+    width: 33.3%;
+
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__logo-unialfa {
+    width: 90%;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/overall.css">
+    <title>Calculadora de Notas</title>
+</head>
+<body>
+    <main>
+        <section class="banner">
+            <a href="https://www.unialfa.com.br/"><img class="banner__logo-unialfa" src="assets/images/logo-unialfa.png" alt="Logomarca da Unialfa"></a>
+        </section>
+        <section class="calculadora">
+            <div class="calculadora__containner">
+                <div class="containner__tittle">
+                    <h1 class="titulo">CALCULADORA DE NOTAS UNIALFA</h2>
+                </div>
+                <div class="containner__registro">
+                    <div class="registro__historico">
+                        <div class="historico__titulo">
+                            <h2 class="titulo__registro">REGISTO DE NOTAS</h1>
+                        </div>
+                        <div class="historico__notas">
+                            <div class="notas notas__n1">
+                                <div class="titulo__notas">N1</div>
+                                <div class="form_linha">
+                                    <label for="valorProcessualN1" class="label">INFORME SUA NOTA PROCECCUAL DE N1:</label>
+                                    <input id="valorProcessualN1" class="input__notas" type="number">
+                                </div>
+                                <div class="form_linha">
+                                    <label for="valorFormalN1" class="label">INFORME SUA NOTA FORMAL DE N3:</label>
+                                    <input id="valorFormalN1" class="input__notas" type="number">
+                                </div>
+                                <button id="formalN1" class="botao" onclick="calcularN1()">CALCULAR</button>
+                            </div>
+                            <div class="notas notas__n2">
+                                <div class="titulo__notas">N2</div>
+                                <div class="form_linha">
+                                    <label for="valorprocessualN2" class="label">INFORME SUA NOTA PROCESSUAL DE N2:</label>
+                                    <input id="valorProcessualN2" class="input__notas" type="number">
+                                </div>
+                                <div class="form_linha">
+                                    <label for="valorformalN2" class="label">INFORME SUA NOTA FORMAL DE N2:</label>
+                                    <input id="valorFormalN2" class="input__notas" type="number">
+                                </div>
+                                <button id="formalN1" class="botao" onclick="calcularN2()" >CALCULAR</button>
+                            </div>
+                            <div class="notas notas__n3">
+                                <div class="titulo__notas">N3</div>
+                                <div class="form_linha">
+                                    <label for="formalN3" class="label">INFORME SUA NOTA FORMAL DE N3:</label>
+                                    <input id="formalN3" class="input__notas" type="number">
+                                </div>
+                                <button id="formalN1" class="botao" onclick="calcularN3()">CALCULAR</button>
+                            </div>
+                            <div class="notas notas__n4">
+                                <div class="titulo__notas">N4</div>
+                                <div class="form_linha">
+                                    <label for="formalN1" class="label">INFORME SUA NOTA FORMAL DE N4:</label>
+                                    <input id="valorN4" class="input__notas" type="number">
+                                </div>
+                                <button id="formalN1" class="botao" onclick="calcularN4()">CALCULAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="registro__feedback">
+                        <h3 class="feedback__titulo">FEEDBACK</h3>
+                        <div id="feedback__texto" class="feedback__texto"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
