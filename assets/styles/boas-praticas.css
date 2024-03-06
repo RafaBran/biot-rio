@@ -1,0 +1,46 @@
+.boas-praticas {
+    display: flex;
+}
+
+.boas-praticas_foto {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../images/ratinho\ 2.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+.boas-praticas_conteudo {
+    width: 50%;
+    height: 100vh;
+}
+
+.boas-praticas_conteudo {
+    color: var(--branco-puro);
+    display: flex;
+    flex-direction: column;
+}
+
+.containner_regulamento-geral {
+    margin: 2em;
+    margin-bottom: 0;
+    text-align: justify;
+    overflow: scroll;
+    line-height: 1.5em;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+.containner_regulamento-geral::-webkit-scrollbar {
+width: 0px;
+}
+
+span {
+    text-align: center;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bolder;
+}

@@ -1,0 +1,17 @@
+.uso-laboratorio {
+    background-image: url(../images/caixas\ de\ skinner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.turmas-containner {
+    position: fixed;
+    top: 13rem;
+    background-color: rgba(0, 0, 0, 0.21);
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vermelho-unialfa);
+
+}
