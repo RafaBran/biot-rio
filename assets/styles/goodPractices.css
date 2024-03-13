@@ -1,0 +1,30 @@
+/* ESTILIZAÇÃO DA PÁGINA DE BOAS PRÁTICAS */
+
+
+.main_good-practices_containner {
+    color: white;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    font-family: var(--fonte-principal);
+}
+
+.main_good-practices_containner::-webkit-scrollbar {
+    width: 0px;
+}
+
+.good-practices_box {
+    margin: 165em 2em 1em 2em;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.good-practices_box span {
+    margin: 2em;
+    text-align: center;
+    font-weight: bolder;
+}
+

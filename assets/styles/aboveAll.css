@@ -1,0 +1,37 @@
+
+
+@import url(header.css);
+@import url(mainPage.css);
+@import url(goodPractices.css);
+@import url(classes-guide.css);
+@import url(laboratoryUse.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /*FONTES*/
+    --fonte-principal: "Roboto", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+    
+    /*CORES*/
+    --vermelho-escuro: #850000;
+    --vermelho-unialfa: #ff0000;
+    --vermelho-transparente: rgba(255, 0, 0, 0.312);
+    --preto-puro: #000000;
+    --branco-puro: #ffffff;
+}
+
+/* GLOBAL ITEMS */
+
+body {
+    background-color: var(--preto-puro);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.main-initial_page-containner {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page-box {
+    background-color: #5d5d5d75;
+    backdrop-filter: blur(50px);
+    border-radius: 5%;
+    border: 1px solid #ff0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-button {
+    width: 15em;
+    height: 2em;
+    font-family: var(--fonte-principal);
+    font-weight: bolder;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.box-button:last-child {
+    margin: 1em;
+}
+
+
+.button {
+    line-height: 2em;
+}
+
